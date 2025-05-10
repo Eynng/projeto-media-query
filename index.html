@@ -10,7 +10,7 @@
   <title>Media Query</title>
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
 
   <header>
 
@@ -54,6 +54,11 @@
   <footer>Site Criado por <strong>Esdras Ramon</strong> para fins educacionais.</footer>
 
   <script>
+    function mudouTamanho() {
+      if (window.innerWidth >= 768) {
+        itens.style.display = 'block';
+      } else { itens.style.display = 'none'; }
+    }
 
     function clickMenu() {
       if (itens.style.display =='block') {
