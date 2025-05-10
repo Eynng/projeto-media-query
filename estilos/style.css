@@ -12,14 +12,14 @@ body, html {
 }
 
 header {
-  background-color: rgb(4, 0, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 
 header > h1 {
   padding: 10px;
   text-align: center;
-  color: white;
+  color: rgb(4, 0, 255);
 }
 
 #burguer {
@@ -51,7 +51,7 @@ menu > ul > li > a {
   text-align: center;
   background-color: rgb(12, 0, 119);
   color: white;
-  border-top : 2px solid rgb(92, 92, 92);
+  border-top : 2px solid rgb(0, 0, 0);
   
 }
 
