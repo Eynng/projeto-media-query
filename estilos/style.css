@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html {
+  background-color: rgb(4, 0, 255);
+ 
+}
+
+header {
+  background-color: rgb(4, 0, 255);
+}
+
+
+header > h1 {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+#burguer {
+  background-color: rgb(66, 66, 66);
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#burguer:hover {
+  background-color: rgb(80, 80, 80);
+  color: black;
+}
+
+menu {
+  display: none;
+}
+
+menu > ul {
+  list-style-type: none;
+}
+
+menu > ul > li > a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border-top : 2px solid gray;
+  
+}
+
+menu > ul > li > a:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+main {
+  width: 90vw;
+  background-color: rgb(12, 0, 119);
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+article > h2 {
+  padding-bottom: 20px;
+  color: rgb(36, 36, 255);
+}
+
+article > p {
+  color: white;
+  text-align: justify;
+  margin-bottom: 20px;
+  text-indent: 0px;
+}
+
+article > p > a {
+  text-decoration: none;
+  color: rgb(75, 75, 255);
+  font-weight: bold;
+}
+
+article > p > a:hover {
+  color: rgb(154, 154, 255);
+}
+
+strong {
+  color:rgb(75, 75, 255)
+}
