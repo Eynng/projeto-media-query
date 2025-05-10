@@ -71,7 +71,7 @@ main {
 
 article > h2 {
   padding-bottom: 20px;
-  color: rgb(36, 36, 255);
+  color: rgb(255, 255, 255);
 }
 
 article > p {
@@ -93,4 +93,13 @@ article > p > a:hover {
 
 strong {
   color:rgb(75, 75, 255)
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(75, 75, 255);
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  
 }
