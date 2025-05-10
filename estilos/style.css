@@ -63,7 +63,9 @@ main {
   width: 90vw;
   background-color: rgb(12, 0, 119);
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
   padding: 10px;
   border-radius: 10px;
 
@@ -101,6 +103,7 @@ footer {
   text-align: center;
   padding: 5px;
   position: relative;
-  margin-top: 10%;
-  
+  bottom: 0px;
+  top: 110px;
 }
+  
