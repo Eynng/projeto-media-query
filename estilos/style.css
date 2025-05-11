@@ -7,23 +7,23 @@
 }
 
 body, html {
-  background-color: rgb(3, 0, 151);
+  background-color: rgb(151, 151, 151);
  
 }
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(151, 151, 151);
 }
 
 
 header > h1 {
   padding: 10px;
   text-align: center;
-  color: rgb(4, 0, 255);
+  color: rgb(255, 255, 255);
 }
 
 #burguer {
-  background-color: rgb(12, 0, 119);
+  background-color: rgb(46, 46, 46);
   display: block;
   color: white;
   text-align: center;
@@ -32,7 +32,7 @@ header > h1 {
 }
 
 #burguer:hover {
-  background-color: rgb(18, 0, 180);
+  background-color: rgb(65, 65, 65);
   color: black;
 }
 
@@ -49,19 +49,19 @@ menu > ul > li > a {
   padding: 10px;
   text-decoration: none;
   text-align: center;
-  background-color: rgb(12, 0, 119);
+  background-color: rgb(46, 46, 46);
   color: white;
-  border-top : 2px solid rgb(0, 0, 0);
+  
   
 }
 
 menu > ul > li > a:hover {
-  background-color: rgb(21, 0, 206);
+  background-color: rgb(65, 65, 65);
 }
 
 main {
   width: 90vw;
-  background-color: rgb(8, 0, 80);
+  background-color: rgb(46, 46, 46);
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -85,25 +85,15 @@ article > p {
 
 article > p > a {
   text-decoration: none;
-  color: rgb(75, 75, 255);
+  color: rgb(92, 92, 92);
   font-weight: bold;
 }
 
 article > p > a:hover {
-  color: rgb(154, 154, 255);
+  color: rgb(177, 177, 177);
 }
 
 strong {
-  color:rgb(75, 75, 255)
-}
-
-footer {
-  background-color: rgb(12, 0, 119);
-  color: rgb(75, 75, 255);
-  text-align: center;
-  padding: 5px;
-  position: relative;
-  bottom: 0px;
-  top: 110px;
+  color:rgb(92, 92, 92)
 }
   
